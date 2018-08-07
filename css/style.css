@@ -214,7 +214,7 @@
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(4,1fr);
 */
-  border: 1px solid blue;
+/*  border: 1px solid blue;*/
 }
 
 /*prof skill bars*/
@@ -223,7 +223,7 @@
 .skills_contain{ 
   width: 90%;
   background-color: #ddd;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   margin-left: 5%;
 }
 
@@ -349,7 +349,7 @@
 .latest_work{
   display: grid;
   grid-column: 2/10;
-  grid-row: 2/8;
+  grid-row: 2/10;
   height: 350px;
 /*  background-color: rgba(99, 99, 99, 0.7);*/
   animation: glow2 1s infinite;
@@ -375,8 +375,6 @@
 
     .blog1_project,.blog2_project,.code4ct_project,.outdoor_project{
         display: inline-block;
-          grid-column: 1/2;
-          grid-row: 1/2;
 /*        display: inline-flex;*/
           margin-left: 20%;
     }
@@ -409,11 +407,27 @@
         height: 50px;
         border-radius: 50%;
         margin-left: 10%;
+        margin-top: 20px !important;
     }
     #contact_info h2{
         color: white;
         font-size: 30px;
+        margin-top: 30px;
+        margin-left: 5px;
     }
+    #contact_info a {
+      text-decoration: none;
+          color: white;
+         width: 80%;
+        height: 25px;
+    }
+   
+    #contact_info .info_div{
+       display: inline-flex;
+        width: 80%;
+        height: 25px;
+    }
+    
     
 /*
 .port{
@@ -522,7 +536,7 @@
     
     .profess_skills{ 
         display: block;
-        border: 1px solid red;
+/*        border: 1px solid red;*/
     }
     .personal_skills{
         display: block;}
@@ -560,18 +574,51 @@
     .count_up,top_canvas, .bot_canvas{
         display: block;
     }
+    #contact_info h2{
+        color: white;
+        font-size: 18px;
+        margin-top: 35px; 
+        margin-left: 5px; 
+    }
+}
+@media screen and (max-width: 600px){
+    #portfolio_section{
+        height: 100%;
+    }
     
     .latest_work{
         height: 100%;
         display: block;
+        text-align: center;
+        
     }
-         .blog1_project,.blog2_project,.code4ct_project,.outdoor_project{
+    .blog1_project,.blog2_project,.code4ct_project,.outdoor_project{
         display: block;
-          margin-left: 5%;
+          margin-right: auto;
+          margin-left: auto;
+             
     }
-    .outdoor_project{
-          margin-left: 10%;
+
+}
+@media screen and (min-width: 601px) and (max-width: 1400px){
+    #portfolio_section{
+/*        height: 80%;*/
+        height: 60vh;
     }
+    
+    .latest_work{
+        height: 100%;
+        display: inline-grid;
+        text-align: center;
+        
+    }
+    .blog1_project,.blog2_project,.code4ct_project,.outdoor_project{
+        display: inline-block;
+          margin-right: auto;
+          margin-left: auto;
+             
+    }
+
 }
 @media screen and (min-width: 500px) and (max-width: 800px){
     
@@ -610,13 +657,13 @@
     
     .profess_skills{ 
         display: block;
-        border: 1px solid red;
+/*        border: 1px solid red;*/
     }
     .personal_skills{
         display: block;
     }
     .count_up{
-        border: 1px solid red;
+/*        border: 1px solid red;*/
         text-align: center;
         width: 100%;
         display: grid;
@@ -672,10 +719,34 @@
     }
     
     
-@media screen and (max-width: 500px){
-.tertiary h2,.secondary h2{
- font: 10em;
-    font-family: monospace;
+
 }
 
+/*
+@media screen and (min-width: 850px) and (max-width: 1100px){
+    .blog1_project,.blog2_project,.code4ct_project,.outdoor_project{
+        display: inline-block;
+          margin-left: 5%;
+    }
+    .outdoor_project{
+          margin-left: 20%;
+    }
+    .blog1_project{
+        margin-left: 15%;
+    }
+}
+    
+@media screen and (min-width: 1101px) and (max-width: 1440px){
+       .blog2_project,.code4ct_project{
+          margin-left: 15%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 700px){
+ .latest_work{
+      display: grid;
+      grid-column: 1/11;
+      grid-row: 2/8;
+
+    }
+*/
     

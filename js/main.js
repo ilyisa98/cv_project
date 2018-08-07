@@ -223,7 +223,7 @@ function progressSim3(){
     
 	can3.stroke();
 
-    	if(end3 >= 56){
+    	if(end3 >= 70){
 		clearTimeout(sim_3);
 	    
 	}
@@ -254,7 +254,7 @@ function progressSim4(){
     
 	can4.stroke();
 	
-	if(end4 >= 24){
+	if(end4 >= 75){
 		clearTimeout(sim_4);
 	    
 	}
