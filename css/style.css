@@ -470,13 +470,11 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 8px;
+    padding: 6px 4px;
     text-decoration: none;
     cursor: pointer;
 }
-    .tab_li a{
-        padding: 8px 8px;
-    }
+    
     
 .nav_li a{
     display: inline-flex;
@@ -489,6 +487,7 @@
 #nav{
     position: fixed;
     top: 0;
+    left: 8px;
     width: 98.8%;
 }
 
@@ -580,6 +579,12 @@
         margin-top: 35px; 
         margin-left: 5px; 
     }
+    #nav{
+    
+    top: 0;
+    left: 8px;
+    width: 98%;
+   }
 }
 @media screen and (max-width: 600px){
     #portfolio_section{
