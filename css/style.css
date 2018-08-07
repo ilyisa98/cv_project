@@ -585,6 +585,9 @@
     left: 8px;
     width: 98%;
    }
+   .about_me_content{
+        grid-row: 1/9;
+    }
 }
 @media screen and (max-width: 600px){
     #portfolio_section{
