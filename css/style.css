@@ -81,7 +81,7 @@
     left: 17% !important;
     top: 10% !important;
     width: 65% !important; /* Full width */
-    height:86% !important; /* Full height */
+    height:75% !important; /* Full height */
     overflow: auto !important; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
@@ -671,9 +671,9 @@
     }
     #pro_pic{
     border-radius: 50%;
-    width: 60%;
-    height: 225px;
-    margin-left: 20%;
+    width: 55%;
+    height: 150px;
+    margin-left: 25%;
 }
 }
 @media screen and (max-width: 600px){
@@ -715,16 +715,18 @@
     }
 
 }
-@media screen and (min-width: 500px) and (max-width: 800px){
+@media screen and (min-width: 500px) and (max-width: 849px){
     
+/*
     #about_me{
       grid-column: 2/10;
       grid-row: 2/10;
     }
+*/
     .about_me_content{
         font-size: 18px;
         grid-column: 2/9;
-        grid-row: 2/9;
+        grid-row: 3/9;
     }
 
 }
