@@ -1,18 +1,18 @@
 'use strict';
 
-//nav bar
-        
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
-                document.getElementById("nav").style.display = "block";
-            } else {
-                document.getElementById("nav").style.display = "none";
-            }
-        } scrollFunction();
-        
-        
+////nav bar
+//        
+//        window.onscroll = function() {scrollFunction()};
+//
+//        function scrollFunction() {
+//            if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+//                document.getElementById("nav").style.display = "block";
+//            } else {
+//                document.getElementById("nav").style.display = "none";
+//            }
+//        } scrollFunction();
+//        
+//        
     
         
 //       skills section
@@ -48,7 +48,7 @@
             }
           }
             function frame3() {
-            if (width >= 70) {
+            if (width >= 75) {
               clearInterval(id3);
             } else {
               width++; 
@@ -148,7 +148,7 @@ function progressSim(){
     
 	
 	//Draws "filled" percentage on the canvas
-	can1.fillText( "Professionalism:" + end1 +'%', cw*.5, ch*.5+2, cw);
+	can1.fillText( "Critical Thinking:" + end1 +'%', cw*.5, ch*.5+2, cw);
     
 	//Begins a path, or resets the current path
 	can1.beginPath();
@@ -184,7 +184,7 @@ function progressSim2(){
     
 	can2.textAlign = 'center';
     
-	can2.fillText("Team Work:" + end2+'%', cw*.5, ch*.5+2, cw);
+	can2.fillText("Integrity:" + end2+'%', cw*.5, ch*.5+2, cw);
     can2.font = "16px Arial";
 	can2.beginPath();
     
@@ -215,7 +215,7 @@ function progressSim3(){
     
 	can3.textAlign = 'center';
     
-	can3.fillText("Individualism:" + end3+'%', cw*.5, ch*.5+2, cw);
+	can3.fillText("Persistence:" + end3+'%', cw*.5, ch*.5+2, cw);
     can3.font = "16px Arial";
 	can3.beginPath();
     
@@ -246,7 +246,7 @@ function progressSim4(){
     
 	can4.textAlign = 'center';
     
-	can4.fillText("Inovate:" + end4+'%', cw*.5, ch*.5+2, cw);
+	can4.fillText("Innovation:" + end4+'%', cw*.5, ch*.5+2, cw);
     can4.font = "16px Arial";
 	can4.beginPath();
     
@@ -263,17 +263,23 @@ function progressSim4(){
     
         
 // education tabs       
-    
+  
+//document.getElementById("active").style.backgroundColor = "red";
+//document.getElementById("active").click();
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
 function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].classList.remove("w3-red");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.classList.add("w3-red");
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
+
