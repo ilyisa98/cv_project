@@ -82,7 +82,7 @@
     top: 10% !important;
     width: 65% !important; /* Full width */
     height:75% !important; /* Full height */
-    overflow: auto !important; /* Enable scroll if needed */
+/*     overflow: auto !important;  Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
     border-radius: 10px; /*border curved*/
