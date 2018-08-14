@@ -653,7 +653,7 @@
 @media screen and (max-width: 500px){
     
     .modal {
-    height:65% !important;
+    height:450px !important;
     }
 
     .count_up,top_canvas, .bot_canvas{
