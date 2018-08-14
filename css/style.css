@@ -81,7 +81,7 @@
     left: 17% !important;
     top: 10% !important;
     width: 65% !important; /* Full width */
-    height:75% !important; /* Full height */
+    height:85% !important; /* Full height */
 /*     overflow: auto !important;  Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
@@ -651,6 +651,11 @@
 }
 
 @media screen and (max-width: 500px){
+    
+    .modal {
+    height:65% !important;
+    }
+
     .count_up,top_canvas, .bot_canvas{
         display: block;
     }
@@ -677,6 +682,9 @@
 }
 }
 @media screen and (max-width: 600px){
+    
+
+
     #portfolio_section{
         height: 100%;
     }
