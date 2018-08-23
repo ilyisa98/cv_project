@@ -584,6 +584,10 @@
     border-top: none;
     background-color: transparent !important;
 }
+ footer{
+/*        background-color: #363636 !important;*/
+        color: white;
+    }
 /*responsiveness*/
 
 @media screen and (max-width: 850px){
@@ -648,6 +652,8 @@
         height: 90vh; 
     }
 */
+    
+   
 }
 
 @media screen and (max-width: 500px){
