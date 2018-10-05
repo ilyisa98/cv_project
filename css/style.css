@@ -89,7 +89,7 @@
 }
 
 #contact_me{
-   margin: auto;
+    margin: auto;
     margin-top: -100px;
     display: none;
     width: 95%;
@@ -257,20 +257,31 @@
 .team_work, .inovate, .indivi, .profess{ 
        height: 5%;
        background-color: #4CAF50;
-       color: white;
        text-align: center;
        }
+    #demo{
+        color: #4CAF50;
+    }
 .inovate{
        background-color: #2196F3;
 }
+    #demo2{
+        color: #2196F3;
+    }
 
 .indivi{
         background-color: #f44336;
         }
+    #demo3{
+        color: #f44336;
+    }
 
 .profess {
           background-color:darkorange;
         }
+    #demo4{
+        color: darkorange;
+    }
     
 /*professional skills*/
 /*count up*/

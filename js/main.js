@@ -148,7 +148,7 @@ function progressSim(){
     
 	
 	//Draws "filled" percentage on the canvas
-	can1.fillText( "Critical Thinking:" + end1 +'%', cw*.5, ch*.5+2, cw);
+	can1.fillText( "Critical Thinking", cw*.5, ch*.5+2, cw);
     
 	//Begins a path, or resets the current path
 	can1.beginPath();
@@ -184,7 +184,7 @@ function progressSim2(){
     
 	can2.textAlign = 'center';
     
-	can2.fillText("Integrity:" + end2+'%', cw*.5, ch*.5+2, cw);
+	can2.fillText("Integrity", cw*.5, ch*.5+2, cw);
     can2.font = "16px Arial";
 	can2.beginPath();
     
@@ -215,7 +215,7 @@ function progressSim3(){
     
 	can3.textAlign = 'center';
     
-	can3.fillText("Persistence:" + end3+'%', cw*.5, ch*.5+2, cw);
+	can3.fillText("Persistence", cw*.5, ch*.5+2, cw);
     can3.font = "16px Arial";
 	can3.beginPath();
     
@@ -246,7 +246,7 @@ function progressSim4(){
     
 	can4.textAlign = 'center';
     
-	can4.fillText("Innovation:" + end4+'%', cw*.5, ch*.5+2, cw);
+	can4.fillText("Innovation", cw*.5, ch*.5+2, cw);
     can4.font = "16px Arial";
 	can4.beginPath();
     
